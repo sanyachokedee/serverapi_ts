@@ -39,7 +39,7 @@ const fileFilter = (
 const multerConfig = {
   config: {
     storage,
-    limits: { fileSize: 1024 * 1024 * 5 },
+    limits: { fileSize: 2024 * 2024 * 5 },
     fileFilter,
   },
   keyUpload: "photo",
